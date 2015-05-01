@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#0B998C">
+    <title>Tomer Rosenfeld</title>
+
+    <!-- CSS  -->
+    <!-- Compiled and minified JavaScript -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/myJs.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+
+</head>
+
+<body id="top" class="scrollspy">
+
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav class="default_color" role="navigation" id="nav" >
+        <div class="container">
+            <div class="nav-wrapper"><a id="logo-container"  class="brand-logo">Tomer Rosenfeld</a>
+            <ul id="nav-mobile" class="right side-nav">
+                <li><a href="#top">Service</a></li>
+                <li><a href="#work">My Projects</a></li>
+                <li><a href="#knowledge">Knowledge</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner" style="width: 100%">
+    <div  style="width: 100%;   height: 250px ">
+        <h1 class="text_h center header cd-headline letters type" style="width: 100%; padding-top: 7%;padding-bottom: 170px">
+            <span style="width: 100%">My name is Tomer Rosenfeld <br><br> and I</span>
+
+            <span class="cd-words-wrapper ">
+                <b class="is-visible">make Android apps</b>
+                <b>make websites</b>
+                <b>am an Android software developer</b>
+                <b>am a designer</b>
+                <b>am an open source contributor</b>
+                <b>make short films for youtube</b>
+                <b>am a Linux user</b>
+            </span>
+        </h1>
+    </div>
+</div>
+
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2"> My name is Tomer Rosenfeld, I develop apps and websites as my job and as my hobby. <br> <a href="#contact">Contact</a> me if you need a website, app or anything else! </h2>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--Work-->
+<div class="section scrollspy" id="work">
+    <div class="container">
+        <h2 class="header text_b">My projects </h2>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/greenblitz.gif">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">GreenBlitz website</span>
+                        <p><a href="http://green-blitz.com">Green Blitz Website</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">GreenBlitz Robotics website </span>
+                        <p>I am a part of the GreenBlitz robotics team #4590,<br> I wrote and designed their website from scratch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="background-color: #51CCF0">
+                        <img class="activator" src="img/assist-me.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Assist-Me</span>
+                        <p><a href="https://play.google.com/store/apps/details?id=com.assist.me">Google Play Link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Assist-Me </span>
+                        <p>Assist-Me was my first big Android Project, I came a long way since and new apps of mine will be available on the play store soon.<br> Assist-Me is currently my most downloaded Android app with over 5,000 downloads</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/kitkat-rom.png">
+                    </div>
+                    <div class="card-content">
+                       <span > <span  class="card-title activator grey-text text-darken-4">Kit-Kat look alike rom </span></span>
+                        <p><a href="http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-kit-kat-look-alike-beta-2-alpha-46-t2482360/post46439859#post46439859">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"> Kit-Kat rom for the Galaxy S2</span>
+                        <p>2 years ago, many leaks about the new android os "KIT-KAT" showed up, I got really excited about it so I decided not to wait for google to finish their work on it and create it myself based on leaks.
+                           <br>
+                            Kit-Kat look alike rom is an android rom based on AOSP 4.3 (Android Open Source Project), it supposed to simulate the feel of android Kit-Kat to users who can't wait for the official release </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/math.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span><span class="card-title activator grey-text text-darken-4">Math made easy</span></span>
+                        <p><a href="#"></a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Math made easy </span>
+                        <p>A project currently in development. <br> The project's goal is to make math exercises more accessible for high school kids. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/android-lollipop.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Android L Dialog lib</span>
+                        <p><a href="https://github.com/tomer007/Android-L-DIalog">GitHub link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                       <span> <span class="card-title grey-text text-darken-4">Android L Dialog library for android </span></span>
+                        <p>A library to be used for creating android 5.0 like dialogs on android 2.3+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/coming-soon.png">
+                    </div>
+                    <div class="card-content">
+                       <span> <span class="card-title activator grey-text text-darken-4">More and more to come</span></span>
+                        <p><a href="#"></a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">More and more to come </span>
+                        <p>I have many more projects and many more in the work, stay tuned!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Knowledge-->
+<div class="section scrollspy" id="knowledge">
+    <div class="container">
+        <h2 class="header text_b"> My skills </h2>
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/java.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Java <br/>
+                          </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/android.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Android<br/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/html.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            HTML <br/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/linux.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Linux<br/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/js.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">JavaScript<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/c++.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">C++<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/adobe.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Adobe<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/css.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">CSS<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/git.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Git<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/shell.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Shell<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/parse.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Parse<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/filezilla.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">FTP<br/>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div  class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a id="fab" onclick="  goTo('top')" class="btn-floating btn-large waves-effect waves-light red">
+        <i class="mdi-hardware-keyboard-arrow-up"></i>
+    </a>
+</div>
+<!--Footer-->
+<footer id="contact" class="page-footer  scrollspy default_color">
+    <div class="container">
+        <div class="row">
+
+            <div class="col l6 s12">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-account-circle prefix white-text"></i>
+                            <input id="icon_prefix" type="text" class="validate white-text">
+                            <label for="icon_prefix" class="white-text">Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="mdi-communication-phone prefix white-text"></i>
+                            <input id="phone_num" type="text" class="validate white-text">
+                            <label for="phone_num" class="white-text">Phone Number</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="mdi-communication-email prefix white-text"></i>
+                            <input id="icon_email" type="email" class="validate white-text">
+                            <label for="icon_email" class="white-text">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="mdi-editor-mode-edit prefix white-text"></i>
+                            <textarea id="icon_prefix2" class="materialize-textarea white-text"></textarea>
+                            <label for="icon_prefix2" class="white-text">Message</label>
+                        </div>
+                        <div class="col offset-s7 s5">
+                            <button onclick="try{sendMail()}catch (e){alert(e)}" class="btn waves-effect waves-light red darken-1" type="button" name="action" style="margin-bottom: 15px">Submit
+                                <i class="mdi-content-send right white-text"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div style="padding-left: 400px" class="col l3 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                    <li>
+                        <a class="white-text" href="https://www.facebook.com/rosenpin4ever">
+                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://github.com/tomer007">
+                            <i class="small fa fa-github-square white-text"></i> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://plus.google.com/u/0/+TomerRosenfeld/posts">
+                            <i class="small fa fa-google-plus-square white-text"></i> Google+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+<div   id="color_changer">
+    <button onclick="setColors('rgba(0,150,136,0.95)')" class="btn waves-effect waves-light colors" id="teal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="setColors('rgba(244,67,54,0.95)')" class="btn waves-effect waves-light colors colors" id="red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="setColors('rgba(33,150,243,0.95)')" class="btn waves-effect waves-light colors colors" id="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="setColors('rgba(0,0,0,0.95)')" class="btn waves-effect waves-light colors colors" id="black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+</div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>setColorOnStart()</script>
+
+</body>
+</html>
