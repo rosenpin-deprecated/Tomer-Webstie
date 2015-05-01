@@ -2,4 +2,4 @@ This is my website forked from <a href="https://github.com/joashp/material-desig
 
 View the website live <a href="http://tomerrosenfeld.info">here</a>
 
- My website is licesnced under the <a href="http://www.wtfpl.net">WTFPL</a>
+ My website is licenced under the <a href="http://www.wtfpl.net">WTFPL</a>
